@@ -1,0 +1,5 @@
+Test Case,Description,Expected Outcome,Status
+"Test Case 1: Rendering the Product Card","Ensure the component renders correctly with the provided props","All product details, including image, title, and description, should be rendered","Passed"
+"Test Case 2: Button Click Calls addToCart","Ensure clicking the 'AddToCart' button triggers the addToCart function with the correct data","addToCart function should be called with the correct product data","Passed"
+"Test Case 3: Link Navigates Correctly","Ensure the link navigates to the correct product page when clicked","The link should navigate to /products/{id} when clicked","Passed"
+"Test Case 4: Button Click Triggers addToCart with Correct Data","Ensure the addToCart function is triggered with the correct product data on button click","The addToCart function should be called with the product data passed as arguments","Passed"
